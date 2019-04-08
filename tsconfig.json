@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "allowJs": true
+  },
+    "include": [
+    "resources/ts/**/*.ts",
+    "resources/ts/**/*.tsx",
+    "resources/ts/**/*.vue",
+    "resources/ts/tests/**/*.ts",
+    "resources/ts/tests/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
